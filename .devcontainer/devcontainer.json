@@ -1,6 +1,6 @@
 {
 "name": "Airline Analytics - Snowflake",
-"image": "[mcr.microsoft.com/devcontainers/base:ubuntu-22.04](http://mcr.microsoft.com/devcontainers/base:ubuntu-22.04)",
+"image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04](http://mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
 
 "features": {
   "ghcr.io/devcontainers/features/python:1": {
