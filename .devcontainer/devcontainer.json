@@ -25,5 +25,5 @@
       ]
     }
   },
-  "postCreateCommand": "pip install dbt-snowflake==1.9.0 && cp .env.example .env && echo '✅ Codespace ready! Edit .env with your credentials, then run: docker compose up -d'"
+  "postCreateCommand": "pip install dbt-snowflake==1.9.0 && bash .devcontainer/create-env.sh && echo '✅ Codespace ready! Run: docker compose up -d'"
 }
