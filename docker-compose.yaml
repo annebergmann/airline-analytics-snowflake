@@ -1,6 +1,7 @@
 x-airflow-common: &airflow-common
   build: .
   env_file: .env
+  user: "1000:0" # Match WSL file ownership so dbt can write to bind-mounted project folders
   volumes:
     - ./dags:/opt/airflow/dags
     - ./include:/opt/airflow/include
